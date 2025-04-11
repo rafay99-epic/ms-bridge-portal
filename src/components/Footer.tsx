@@ -32,6 +32,9 @@ const Footer = () => {
               <a href="#contact" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
                 Contact
               </a>
+              <a href="#screenshots" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
+                Screenshots
+              </a>
             </div>
           </div>
         </div>

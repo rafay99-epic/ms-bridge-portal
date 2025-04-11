@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Download, ChevronDown } from 'lucide-react';
+import { Download, ChevronDown, Wifi, Battery, Clock } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -31,15 +31,35 @@ const HeroSection = () => {
           </div>
           
           <div className="order-1 md:order-2 flex justify-center animate-fade-in">
-            <div className="w-full max-w-[300px] aspect-[9/16] bg-ms-accent-dark border-4 border-ms-accent/30 rounded-[32px] shadow-lg relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-ms-accent/20 to-transparent flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 mb-4 mx-auto rounded-full bg-ms-accent flex items-center justify-center">
-                    <span className="text-2xl font-bold">MS</span>
+            {/* Mobile Phone Frame with Welcome Screen */}
+            <div className="relative w-full max-w-[300px]">
+              {/* Phone Frame */}
+              <div className="relative aspect-[9/16] rounded-[32px] overflow-hidden border-[8px] border-black bg-black shadow-2xl">
+                {/* Status Bar */}
+                <div className="absolute top-0 left-0 right-0 h-8 bg-black z-10 flex items-center justify-between px-5">
+                  <div className="flex items-center">
+                    <Clock className="h-3 w-3 text-white mr-1" />
+                    <span className="text-white text-xs">10:11</span>
                   </div>
-                  <p className="font-semibold">MS Bridge App</p>
+                  <div className="flex items-center space-x-1">
+                    <Wifi className="h-3 w-3 text-white" />
+                    <Battery className="h-4 w-4 text-white" />
+                  </div>
                 </div>
+                
+                {/* Welcome Screen Image */}
+                <img 
+                  src="/lovable-uploads/24884562-fbae-481e-95ac-8ef4221eaf12.png" 
+                  alt="MS Bridge Welcome Screen" 
+                  className="object-cover w-full h-full"
+                />
+                
+                {/* Home Indicator */}
+                <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1/3 h-1 bg-white rounded-full opacity-80"></div>
               </div>
+              
+              {/* Phone Shadow */}
+              <div className="absolute -bottom-4 left-0 right-0 h-4 bg-black/20 blur-xl rounded-full"></div>
             </div>
           </div>
         </div>
