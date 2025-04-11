@@ -12,28 +12,46 @@ const ScreenshotsSection = () => {
   // Array of screenshots with descriptions
   const screenshots = [
     {
-      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-      alt: "Note taking interface",
-      title: "Intuitive Note Taking",
-      description: "Clean and simple interface for effortless note creation and editing"
+      src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      alt: "Intro screen",
+      title: "Welcome Screen",
+      description: "Clean and intuitive introduction to MS Bridge"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+      alt: "Login screen",
+      title: "Secure Login",
+      description: "Firebase Authentication with spam detection"
     },
     {
       src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      alt: "AI summarization feature",
-      title: "AI Summarization",
-      description: "AI-powered note summarization for quick information retrieval"
+      alt: "Note Reading UI",
+      title: "Note Viewer",
+      description: "Clean, distraction-free reading experience"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+      alt: "Note Taking section",
+      title: "Note Editor",
+      description: "Full-featured editor with auto-save capability"
     },
     {
       src: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      alt: "Theme customization",
-      title: "Theme Customization",
-      description: "Multiple theme options for personalized experience"
+      alt: "Search UI",
+      title: "Smart Search",
+      description: "Fast, tag-based note search with offline capabilities"
     },
     {
-      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
-      alt: "Settings interface",
-      title: "Advanced Settings",
-      description: "Comprehensive settings for full app customization"
+      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      alt: "Settings UI",
+      title: "Customizable Settings",
+      description: "Extensive options to personalize your experience"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+      alt: "Color Themes",
+      title: "Theme Selection",
+      description: "Multiple color themes for a personalized experience"
     }
   ];
 
