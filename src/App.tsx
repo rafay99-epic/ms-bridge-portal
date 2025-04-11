@@ -10,7 +10,7 @@ import Terms from "./pages/terms_conditions";
 
 const queryClient = new QueryClient();
 
-const TermsPage = () => (
+const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
@@ -27,4 +27,4 @@ const TermsPage = () => (
   </QueryClientProvider>
 );
 
-export default TermsPage;
+export default App;
