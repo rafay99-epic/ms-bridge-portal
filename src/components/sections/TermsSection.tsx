@@ -1,85 +1,100 @@
-
-import React from 'react';
-import { FileText } from 'lucide-react';
+import React from "react";
+import { FileText } from "lucide-react";
 
 const TermsSection = () => {
   return (
-    <section id="terms" className="ms-section bg-ms-accent-dark/50">
-      <div className="max-w-4xl mx-auto">
+    <section id="terms" className="ms-section bg-ms-accent-dark/50 py-20">
+      <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-12 animate-fade-in">
           <FileText size={40} className="text-ms-accent mx-auto mb-4" />
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-2">
             <span className="text-ms-accent">Terms & </span>
             <span className="text-ms-text-light">Conditions</span>
           </h2>
+          <p className="text-ms-text-light/70 text-sm">
+            Please review our terms carefully before using MS Bridge
+          </p>
         </div>
 
-        <div className="ms-card animate-slide-up">
-          <div className="space-y-6 text-ms-text-light/80">
+        <div className="ms-card animate-slide-up bg-ms-gray-dark rounded-2xl shadow-lg p-8 space-y-10">
+          <div className="text-ms-text-light/80 space-y-8 text-base leading-relaxed">
             <p>
-              <strong className="text-ms-accent">Last Updated:</strong> April 11, 2025
+              <strong className="text-ms-accent">Effective Date:</strong> March
+              21, 2025
             </p>
-            
-            <p>
-              Please read these Terms & Conditions carefully before using the MS Bridge application.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">1. Acceptance of Terms</h3>
-            <p>
-              By accessing or using MS Bridge, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, please do not use our application.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">2. License</h3>
-            <p>
-              Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to use our application for your personal, non-commercial purposes.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">3. User Accounts</h3>
-            <p>
-              To use certain features of our application, you may need to create an account. You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">4. Prohibited Activities</h3>
-            <p>
-              You agree not to:
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Use our application for any illegal purpose or in violation of any laws</li>
-              <li>Attempt to gain unauthorized access to our systems or networks</li>
-              <li>Modify, adapt, or hack our application</li>
-              <li>Use automated scripts to collect information from our application</li>
-              <li>Interfere with or disrupt the operation of our application</li>
-            </ul>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">5. Intellectual Property</h3>
-            <p>
-              All content and materials available through our application, including but not limited to text, graphics, logos, icons, images, and software, are the property of MS Bridge and are protected by copyright, trademark, and other intellectual property laws.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">6. Disclaimer of Warranties</h3>
-            <p>
-              Our application is provided "as is" and "as available" without any warranties of any kind, either express or implied.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">7. Limitation of Liability</h3>
-            <p>
-              In no event shall MS Bridge be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of our application.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">8. Changes to Terms</h3>
-            <p>
-              We reserve the right to modify these Terms at any time. We will provide notice of significant changes by updating the "Last Updated" date at the top of these Terms.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">9. Governing Law</h3>
-            <p>
-              These Terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law principles.
-            </p>
-            
-            <h3 className="text-xl font-semibold text-ms-text-light">10. Contact Us</h3>
-            <p>
-              If you have any questions about these Terms, please contact us at terms@msbridge.com.
-            </p>
+
+            {[
+              {
+                title: "1. Welcome to MS Bridge",
+                content: `Please read these Terms and Conditions carefully before using the MS Bridge app. By accessing or using MS Bridge, you agree to comply with these terms. If you do not agree, please refrain from using the app.`,
+              },
+              {
+                title: "2. Acceptance of Terms",
+                content: `By registering or using MS Bridge, you agree to these Terms and Conditions. If you do not agree, you must discontinue use immediately. Your continued use of the app signifies your acceptance.`,
+              },
+              {
+                title: "3. User Accounts",
+                list: [
+                  "User registration and authentication are mandatory to prevent spam accounts.",
+                  "We use Firebase Authentication for secure account management.",
+                  "Users can register, log in, and reset their passwords securely within the app.",
+                  "You are responsible for maintaining the confidentiality of your account credentials. Any unauthorized access or use of your account is your responsibility.",
+                ],
+              },
+              {
+                title: "4. Data Storage & Privacy",
+                list: [
+                  "Your notes and tasks are stored locally first, giving you full control over your data.",
+                  "Synchronization with Firebase occurs when you choose to sync.",
+                  "All authentication-related data is encrypted.",
+                  "We do NOT view, collect, or share any personal data or content you create.",
+                  "No third parties have access to your data.",
+                  "We are not liable for any data loss due to software issues, hacking attempts, or your own actions.",
+                ],
+              },
+              {
+                title: "5. Acceptable Use Policy",
+                list: [
+                  "Use the app for any illegal or unauthorized purpose.",
+                  "Modify, distribute, or copy any part of the app without prior written consent.",
+                  "Engage in activities that may disrupt the normal functioning of the app or compromise its security.",
+                  "Attempt to reverse engineer, decompile, or extract the source code of the app.",
+                ],
+              },
+              {
+                title: "6. Usage of Imported Notes",
+                list: [
+                  "Imported notes from rafay99.com are public and accessible within the app.",
+                  "These notes are for personal learning purposes only. Redistribution, commercial use, or misuse is strictly prohibited.",
+                ],
+              },
+              {
+                title: "7. Limitation of Liability",
+                content: `MS Bridge is provided "as is" without any warranties, express or implied. We are not responsible for any loss or damage resulting from the use or inability to use the app. We do not guarantee that the app will be free from bugs, errors, or security vulnerabilities.`,
+              },
+              {
+                title: "8. Changes to Terms",
+                content: `We reserve the right to modify these Terms and Conditions at any time. Any changes will be posted within the app or on our website. Continued use of MS Bridge after changes are made constitutes acceptance of the new terms.`,
+              },
+              {
+                title: "9. Governing Law & Jurisdiction",
+                content: `These Terms and Conditions shall be governed by and interpreted in accordance with the laws of Pakistan. Any disputes arising out of or related to these terms shall be subject to the exclusive jurisdiction of the courts in Pakistan.`,
+              },
+            ].map(({ title, content, list }, index) => (
+              <div key={index} className="border-t border-white/10 pt-6">
+                <h3 className="text-xl font-semibold text-ms-text-light mb-2">
+                  {title}
+                </h3>
+                {content && <p className="text-ms-text-light/80">{content}</p>}
+                {list && (
+                  <ul className="list-disc pl-6 space-y-2">
+                    {list.map((item, i) => (
+                      <li key={i}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </div>
