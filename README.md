@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
 
-## Project info
+# MS Bridge Web Portal
+<div align="center" style="margin-bottom: 1rem;"> <img src="https://github.com/user-attachments/assets/bbdeefea-9e37-4e14-9443-6933445432e1" alt="MS Bridge Screenshot" width="100%" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.2); margin-bottom: 1rem;" /> </div> <p align="center" style="margin-top: -1rem;"> 
+  
+  
+<br>  
+<a href="https://ms-bridge-app.vercel.app"> <img src="https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel&labelColor=000&style=flat-square" alt="Vercel" /> </a> 
+<a href="https://reactjs.org/"> <img src="https://img.shields.io/badge/Powered%20by-React-61DAFB?logo=react&logoColor=000&style=flat-square" alt="React" /> </a> 
+<a href="https://vitejs.dev/"> <img src="https://img.shields.io/badge/Bundled%20with-Vite-646CFF?logo=vite&logoColor=fff&style=flat-square" alt="Vite" /> </a> 
+<a href="https://github.com/rafay99-epic/Loveable"> <img src="https://img.shields.io/badge/Boilerplate%20by-Loveable-ff69b4?style=flat-square" alt="Loveable" /> </a> 
 
-**URL**: https://lovable.dev/projects/7b7e08da-d7d5-4a2e-93d9-1c879c8cd48e
+</p>
 
-## How can I edit this code?
+> **Live Site**: [https://ms-bridge-app.vercel.app](https://ms-bridge-app.vercel.app)
 
-There are several ways of editing your application.
+This is the official **web companion** for the **MS Bridge** mobile app. Built using **React + Vite**, this portal shares important info like the **Privacy Policy**, **Terms & Conditions**, and key **features** of the app.
 
-**Use Lovable**
+Deployed on **Vercel** for fast, reliable global access.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7b7e08da-d7d5-4a2e-93d9-1c879c8cd48e) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📱 About MS Bridge
 
-**Use your preferred IDE**
+[MS Bridge](https://github.com/rafay99-epic/MSBridge) is a Flutter-based cross-platform note-taking app. It helps students and professionals manage notes, summaries, and documents — offline or online.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+> 📥 [Download MS Bridge APKs](https://rafay99.com/MSBridge-APK)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Follow these steps:
+## 🌐 Website Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Section               | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| 📃 Privacy Policy     | Clear explanation of data handling and user rights.                         |
+| 📜 Terms & Conditions | Rules, limitations, and responsibilities for users.                         |
+| ✨ Feature Showcase    | Highlights MS Bridge's top features and use cases.                         |
+| ⚡ Fast & Responsive   | Built with Vite + React for a seamless experience.                         |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- **React** – UI Framework
+- **Vite** – Fast development and build tool
+- **Tailwind CSS** – Styling
+- **Vercel** – Hosting & CI/CD
+
+
+
+## 🚀 Getting Started (Local Dev)
+
+```bash
+# Clone the repo
+git clone https://github.com/rafay99-epic/ms-bridge-web-portal
+cd ms-bridge-web-portal
+
+# Install dependencies
+npm install
+
+# Run locally
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧾 Available Pages
 
-**Use GitHub Codespaces**
+- `/` – Landing page with key features  
+- `/privacy-policy` – Our privacy principles  
+- `/terms-and-conditions` – Usage guidelines  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
+## 📦 Build & Deploy
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run build
+```
 
-## How can I deploy this project?
+The site will be generated in the `dist/` folder and can be deployed on any static hosting. It's deployed via **[Vercel](https://vercel.com/)**.
 
-Simply open [Lovable](https://lovable.dev/projects/7b7e08da-d7d5-4a2e-93d9-1c879c8cd48e) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes it is!
+## ❤️ Acknowledgements
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Special thanks to [**Loveable**](https://lovable.dev/projects/7b7e08da-d7d5-4a2e-93d9-1c879c8cd48e) for the base theme and boilerplate used to build this project.  
+Built with love by **Abdul Rafay**.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## 🙌 Contributing
+
+Open to improvements or additional content. Feel free to fork, star, and submit a PR. Let's make it even better!
+
+
+## 📬 Contact
+
+- **Email:** [99marafay@gmail.com](mailto:99marafay@gmail.com)  
+- **Website:** [rafay99.com](https://rafay99.com)
+
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+
+Let me know if you want to add a screenshots section or a dark/light mode toggle preview!
