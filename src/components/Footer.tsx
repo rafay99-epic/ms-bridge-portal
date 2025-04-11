@@ -20,14 +20,8 @@ const Footer = () => {
               <a href="#home" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
                 Home
               </a>
-              <a href="#screenshots" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
-                Screenshots
-              </a>
               <a href="#features" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
                 Features
-              </a>
-              <a href="#advanced-features" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
-                Advanced Features
               </a>
               <a href="#privacy" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
                 Privacy
