@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
@@ -34,7 +34,7 @@ const Index = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="min-h-screen bg-ms-accent-dark text-ms-text-light"
+        className="min-h-screen bg-ms-accent-dark text-ms-text-light mt-12"
       >
         <Navbar />
 
