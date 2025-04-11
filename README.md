@@ -100,6 +100,4 @@ Open to improvements or additional content. Feel free to fork, star, and submit 
 
 Licensed under the [MIT License](LICENSE).
 
----
 
-Let me know if you want to add a screenshots section or a dark/light mode toggle preview!
