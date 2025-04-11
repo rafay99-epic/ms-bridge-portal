@@ -16,12 +16,18 @@ const Footer = () => {
           </div>
           
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-            <div className="flex gap-4">
+            <div className="flex flex-wrap justify-center gap-4">
               <a href="#home" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
                 Home
               </a>
+              <a href="#screenshots" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
+                Screenshots
+              </a>
               <a href="#features" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
                 Features
+              </a>
+              <a href="#advanced-features" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
+                Advanced Features
               </a>
               <a href="#privacy" className="text-ms-text-light/70 hover:text-ms-accent text-sm">
                 Privacy

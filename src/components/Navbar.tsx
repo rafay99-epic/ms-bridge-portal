@@ -50,7 +50,9 @@ const Navbar = () => {
           <nav className="hidden md:block">
             <div className="flex items-baseline space-x-2">
               <NavLink href="#home" label="Home" />
+              <NavLink href="#screenshots" label="Screenshots" />
               <NavLink href="#features" label="Features" />
+              <NavLink href="#advanced-features" label="Advanced Features" />
               <NavLink href="#privacy" label="Privacy" />
               <NavLink href="#terms" label="Terms" />
               <NavLink href="#contact" label="Contact" />
@@ -75,7 +77,9 @@ const Navbar = () => {
         <div className="md:hidden bg-ms-accent-dark border-t border-ms-accent/20">
           <div className="px-2 pt-2 pb-3 space-y-1">
             <NavLink href="#home" label="Home" onClick={closeMenu} />
+            <NavLink href="#screenshots" label="Screenshots" onClick={closeMenu} />
             <NavLink href="#features" label="Features" onClick={closeMenu} />
+            <NavLink href="#advanced-features" label="Advanced Features" onClick={closeMenu} />
             <NavLink href="#privacy" label="Privacy" onClick={closeMenu} />
             <NavLink href="#terms" label="Terms" onClick={closeMenu} />
             <NavLink href="#contact" label="Contact" onClick={closeMenu} />
